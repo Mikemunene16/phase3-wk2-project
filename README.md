@@ -1,8 +1,8 @@
-## Deliverables ##
+# Deliverables 
 Write the following methods in the classes in the files provided. Feel free to build out any helper methods if needed.
 Initializers, Readers, and Writers
 
-# Customer
+## Customer ##
 - `Customer __init__()`
   - Customer should be initialized with a given name and family name, both strings (i.e., first and last name, like George Washington)"
 - `Customer given_name()`
@@ -16,7 +16,7 @@ Initializers, Readers, and Writers
 - `Customer all()`
   - returns **all** of the customer instances
 
-# Restaurant
+## Restaurant ##
 - `Restaurant __init__()`
   - Restaurants should be initialized with a name, as a string
 - `Restaurant name()`
@@ -24,7 +24,7 @@ Initializers, Readers, and Writers
   - should not be able to change after the restaurant is created
  
 
-# Review
+## Review ##
 - `Review __init__()`
   - Reviews should be initialized with a customer, restaurant, and a rating (a number)
 - `Review rating()`
@@ -32,7 +32,7 @@ Initializers, Readers, and Writers
 - `Review all()`
   - returns all of the reviews
 
-# Object Relationship Methods
+# Object Relationship Methods #
 Review
 - `Review customer()`
   - returns the customer object for that review
@@ -52,7 +52,7 @@ Customer
   - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
  
 
-# Aggregate and Association Methods
+# Aggregate and Association Methods #
 Customer
 - `Customer num_reviews()`
   - Returns the total number of reviews that a customer has authored
